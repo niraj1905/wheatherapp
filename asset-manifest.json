@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wheatherapp/static/css/main.670640b1.css",
+    "main.js": "/wheatherapp/static/js/main.ec2448f4.js",
+    "static/js/787.d62d1c65.chunk.js": "/wheatherapp/static/js/787.d62d1c65.chunk.js",
+    "static/media/background2.jpg": "/wheatherapp/static/media/background2.98dd9ec129b354871b26.jpg",
+    "index.html": "/wheatherapp/index.html",
+    "main.670640b1.css.map": "/wheatherapp/static/css/main.670640b1.css.map",
+    "main.ec2448f4.js.map": "/wheatherapp/static/js/main.ec2448f4.js.map",
+    "787.d62d1c65.chunk.js.map": "/wheatherapp/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670640b1.css",
+    "static/js/main.ec2448f4.js"
+  ]
+}
