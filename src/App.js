@@ -1,23 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.scss';
+import MainScreen from './components/MainScreen';
+import { useEffect, useState } from 'react';
+
 
 function App() {
+
+  
+  // // current city Location 
+  // const [current,setCurrent] = useState(null);
+
+  // //current city weather
+  // const [currweat,setCurrweat] = useState(null);
+
+  // function handleLocationClick(){
+  //   if(navigator.geolocation){
+  //     navigator.geolocation.getCurrentPosition(success,error);
+  //   }
+  //   else{
+  //     console.log("Geolocation not supported");
+  //   }
+  // }
+
+  // function success(position){
+  //   const latitude = position.coords.latitude;
+  //   const longitude = position.coords.longitude;
+  //   setCurrent({latitude,longitude});
+  //   // console.log('Latitude : '+latitude);
+
+  //   fetch(`${api.base}weather?lat=${latitude}&lon=${longitude}&appid=${api.key}&units=metric`)
+  //     .then(res =>res.json())
+  //     .then(result => {
+  //       setCurrweat(result);
+  //       console.log(result);
+  //   })
+  //     .catch(error => console.log(error));
+  // }
+
+  // function error() {
+  //   console.log("Unable to retrieve your location");
+  // }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="cover">
+       {/* {!current ? <button onClick={handleLocationClick}>Get Location</button> : null} */}
+      <div className='background'>
+          <MainScreen />
+      </div>
     </div>
   );
 }
